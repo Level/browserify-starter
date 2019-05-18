@@ -1,0 +1,25 @@
+{
+  "name": "level-browserify-starter",
+  "version": "0.0.0",
+  "description": "Demonstrates bundling level for browsers using browserify",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify index.js > bundle.js"
+  },
+  "dependencies": {
+    "level": "~5.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  },
+  "repository": "Level/browserify-starter",
+  "homepage": "https://github.com/Level/browserify-starter",
+  "keywords": [
+    "level",
+    "browserify"
+  ],
+  "engines": {
+    "node": ">=8"
+  }
+}
