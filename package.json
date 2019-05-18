@@ -5,7 +5,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "browserify index.js > bundle.js"
+    "build": "browserify index.js > bundle.js",
+    "test": "npm run build"
   },
   "dependencies": {
     "level": "~5.0.1"
