@@ -9,7 +9,7 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "level": "~6.0.0"
+    "level": "~7.0.0"
   },
   "devDependencies": {
     "browserify": "^17.0.0"
