@@ -5,11 +5,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "browserify index.js > bundle.js",
+    "build": "browserify -i buffer index.js > bundle.js",
     "test": "npm run build"
   },
   "dependencies": {
-    "level": "^7.0.0"
+    "level": "^8.0.0"
   },
   "devDependencies": {
     "browserify": "^17.0.0"
